@@ -1,4 +1,4 @@
 FROM openjdk:latest
-COPY ./target/ProjectSem1-1.0-SNAPSHOT-jar-with-dependencies.jar /tmp
+COPY ./target/ProjectSem1-0.1.0.2-jar-with-dependencies.jar /tmp
 WORKDIR /tmp
-ENTRYPOINT ["java", "-jar", "ProjectSem1-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+ENTRYPOINT ["java", "-jar", "ProjectSem1-0.1.0.2-jar-with-dependencies.jar"]
